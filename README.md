@@ -1,16 +1,40 @@
-# case_studdey
+# 🧪 Case Studdey
 
-A new Flutter project.
+**Case Studdey**, Flutter ile geliştirilen, modern, **clean code** prensiplerine uygun ve **MVC (Model-View-Controller) mimarisiyle** yapılandırılmış bir örnek (case study) projedir. Dio ile API istekleri, GetX ile state management ve Lottie ile animasyon entegrasyonu barındırır. Temiz klasör yapısı, sürdürülebilir ve anlaşılır kod ile yeni nesil Flutter projelerine örnek olarak hazırlanmıştır.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- ⚡ **MVC mimarisi:** Ayrık, ölçeklenebilir, bakımı kolay proje yapısı
+- 🧹 **Clean code** standartları (Yorumsuz, okunaklı ve sade kod)
+- 🌐 **Dio** ile hızlı ve güvenli API/network işlemleri
+- 🎨 **Lottie** desteği ile animasyonlu modern arayüz
+- 🧱 Responsive Flutter UI – tüm ekranlara uyumlu
+- 🪄 GetX ile sade state management ve navigation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Kullanılan Paketler
+
+| Paket         | Açıklama                               |
+|---------------|-----------------------------------------|
+| **GetX**      | State management & navigation           |
+| **Dio**       | HTTP/REST API istekleri                 |
+| **Lottie**    | JSON tabanlı animasyonlar               |
+| **Cupertino Icons** | iOS uyumlu ikonlar                |
+
+---
+
+## 📦 Kurulum
+
+```bash
+# 1. Projeyi klonla
+git clone https://github.com/AlbayEmre/case_studdey.git
+cd case_studdey
+
+# 2. Gerekli paketleri yükle
+flutter pub get
+
+# 3. Uygulamayı başlat
+flutter run
